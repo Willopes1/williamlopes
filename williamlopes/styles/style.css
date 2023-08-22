@@ -1,0 +1,212 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+
+body {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 30%;
+    margin: auto;
+    margin-left: 180px;
+    margin-right: 180px;
+    top: 1px;
+    border-radius: 32px;
+    background-color: #2B2B2B;
+    
+}
+.cabecalho {    
+    width: 100%;
+    height: 20px;
+    margin: 20px;
+    padding: 10px;
+    /* border: 1px solid red; */
+
+
+}
+.cabecalho_menu {
+    display: flex;    
+    justify-content: space-between;
+    align-items: justify;       
+    /* border: 1px solid blue; */
+}
+.cabecalho__menu__link {
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 29.26px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #CAFFCC;
+    gap: 100px;    
+    /* border: 1px solid greenyellow; */
+}
+.cabecalho__menu__link:hover {
+    /* opacity: 0.5; */
+    text-decoration: underline;
+}
+.apresentacao {
+    display: flex;
+    margin: auto;
+    padding: auto;
+    height: 500px;
+    width: 1600px;    
+    /* border: 1px solid red; */
+
+}
+.apresentacao__imagem {
+    margin: auto;
+    padding: auto;    
+    width: 300px;  
+    height: auto; 
+    border-radius: 10%; 
+    
+    
+    
+    
+    /* border: 1px solid blue;  */
+}
+.apresentacao__conteudo__titulo {
+    
+    margin: auto;
+    padding: auto;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400px;
+    font-size: 36px;
+    line-height: 56px;
+    color: #f6f6f6;
+    /* border: 1px solid green; */
+}
+
+.titulo-destaque {
+    margin: auto;
+    height: auto;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400px;
+    font-size: 36px;
+    color: #CAFFCC;
+}
+.apresentacao__conteudo__texto {
+    
+    width: 700px;
+    height: auto;
+    font-weight: 400px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color: #f6f6f6;
+    line-height: 36px;
+    /* border: 1px solid yellow; */
+}
+.apresentacao_links {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px;
+    padding: 10px;
+    /* border: 1px solid white; */
+
+}
+.apresentacao_link_subtitulo {
+    margin: 30px;
+    font-size: 24px;
+    font-weight: 400px;
+    font-family: 'Krona One', sans-serif;
+    line-height: 40px;
+    color: #f6f6f6;    
+    /* border: 1px solid yellow; */
+}
+.apresentacao__links__navegacao {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 30px;    
+    border-radius: 8px;
+    border: 2px solid #CAFFCC;
+    padding: 16px;
+    gap: 20px;
+    color: #CAFFCC;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200px;
+    font-size: 25px;
+    color: #f6f6f6;
+    text-decoration: none;
+    margin: 10px;
+}
+.apresentacao__links__navegacao:hover {
+    opacity: 0.5;
+}
+
+
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    width: 1900px;
+    height: 63px;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 200px;
+    padding: 20px;      
+    background-color: #CAFFCC;
+    /* border: 1px solid red; */
+}
+
+.logo_senac{
+    width: 100px;
+    margin: auto;
+    padding: auto;
+    
+}
+.logo_alura{
+    width: 100px;
+    
+    margin: auto;
+    padding: auto;
+
+}
+.enviar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 64px;
+    margin: 10px;
+    margin-right: 175px;
+    margin-left: 0px;
+    border-radius: 8px;
+    background-color: #CAFFCC;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 36px;    
+}
+.entre_contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;    
+    width: 490px;
+    height: auto;
+    margin : 15px;
+    margin-right: auto;
+    margin-left: 0px;
+    border-color: #CAFFCC;
+    border: 3px solid #CAFFCC;
+    
+}
+button:hover{
+    opacity: 0.5;
+    background-color: #CAFFCC;
+}
+    
+
+
